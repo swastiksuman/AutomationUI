@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<!-- Specify a JDBC datasource -->
+	<Resource name="jdbc/spring" auth="Container"
+		type="javax.sql.DataSource" username="root" password="elnino"
+		driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://localhost:3306/automation_test"
+		maxActive="10" maxIdle="4" />
+</Context>
